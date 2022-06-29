@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include<stdlib.h>
 #include<stdbool.h>
-#define M 6
-#define N 6
+#define M 5
+#define N 5
 bool bipartiteGraph[M][N]; 
 bool bipartiteMax(int u, bool visited[], int a[]) {
    for (int v = 0; v < N; v++) {
